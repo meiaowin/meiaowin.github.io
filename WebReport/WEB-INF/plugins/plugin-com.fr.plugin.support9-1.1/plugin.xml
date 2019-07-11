@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugin>
+    <id>com.fr.plugin.support9</id>
+    <name><![CDATA[9.0技术支持插件]]></name>
+    <active>yes</active>
+    <version>1.1</version>
+    <env-version>9.0</env-version>
+    <jartime>2017-11-10</jartime>
+    <vendor>finereport.neil</vendor>
+    <description><![CDATA[用于诊断分析当前服务器的信息, 寻找问题所在, 简化服务量.
+    目前支持 : 1, 搜索当前版本jar包中的资源文件, 用于一些大版本升级, 查找某些被移包的类或者图片.
+    2, 解密privilege.xml中存储的密码.
+    3, 强制查看lic中的功能点, 不管有没有注册成功.
+    4, 获取系统部署路径, 当前jvm状态信息等等, jar包构建时间等等.
+    5, 对比jdbc直连和报表连接数据库的测试数据连接结果.
+    6, 检测xml文件合法性, 是否编码错误, 是否标签错误.]]></description>
+    <change-notes><![CDATA[
+        <p>[2016-01-28]规范接口调用</p>
+		<p>[2016-07-04]加入Lic模板数量读取</p>
+		<p>[2017-11-15]解析9.0lic</p>
+    ]]></change-notes>
+    <function-recorder  class="com.fr.plugin.support.SupportService"/>
+    <extra-core>
+        <WebService class="com.fr.plugin.support.SupportService"/>
+        <LocaleFinder class="com.fr.plugin.support.resource.locale.SupportLocaleFinder"/>
+    </extra-core>
+    <extra-report>
+        <JavaScriptFileHandler class="com.fr.plugin.support.web.JavaScriptFile"/>
+    </extra-report>
+</plugin>

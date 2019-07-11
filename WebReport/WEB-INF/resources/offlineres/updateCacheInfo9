@@ -1,0 +1,2 @@
+6/24/2019, 9:31:41 AM	CHART-9260 设置防盗链 图表工具栏导出失败 把导出方式a标签download改成和引擎整体导出相同的window.location+res.header.Content-disposition='attachment...'
+6/24/2019, 10:42:48 AM	REPORT-17855 10.0查询很慢同步处理下9.0

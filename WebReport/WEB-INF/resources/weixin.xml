@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WeiXinConfig xmlVersion="20170720" releaseVersion="9.0.0" url="http://192.168.1.133:8075/WebReport/ReportServer" managerVersion="9.5.25">
+<MemberManagementConfig matchingFSWay="0" dataSet="" dataSetFsUserNameColumn="-1" dataSetWeiXinUserIdColumn="-1"/>
+</WeiXinConfig>

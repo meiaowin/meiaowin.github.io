@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fmobileconfig xmlVersion="20170720" releaseVersion="9.0.0" frServerURL="" frServletURL="">
+<qrcodeImage id="62c22b53-c77f-45f8-bf4a-9eab2172bee9" name="90" url="http://192.168.1.13:8075/WebReport/ReportServer">
+<![CDATA[!>tt$rJ=?G7h#eD$31&+%7s)Y;?-[s8cShk8dGIu!!&4g<@.\G!T6O;5u`*_m@$\.__;KdF8
+nnF5kd#.;d)iaW[MIW^HdoP3nFP=oj.I`f?Ln=!qJ:k*WkY8]AX;#NhYr$!2ra7p]ABcf<3s-!
+B]AR?1k7>Si+GYeFUGSaS#luVU`kJcJN5$Mho,LIQ`fm*:"cq7/N4?o3[LZ,M4llSD-C<g>YQ
+F)aj@ga+cC\0f[iuuZN1HWm4d;J0eG.G&+X<i",!IfGi*]ACsSa.cTOD#7Z80H8>V!03U]ALPd
+G'qr6RDe-UUS!XPT\]AAmV[8f:R?aH>3kE.(79q=`=!-ZBJt6B&_O<G6M3aG(E#n?aV38OGlV
+L(S[?jN/;aXf2lOW]A?[ELfYE;m22@4$k;_V,!\ZdZ#U^#$uPOe="H1Zl\MXlX!8YTZslQH?i
+#M5kaARBW^R[bRb<DrSIi3Je')BW+UT&.UdWtsYnH:=6_q]Ao`#LiU&!ogjr9Ca)m>u,g?<F4
+^%`$_o7ASFMn_!DR,a]A['&;MWMnbeQN1IQe=@Luj(:<a\$EJucqEs`Pp*L_ebJFA<W]AP`ut!
++X8(&P4h"93E>!R"ZRNinPB.k=Ah7&='mh0Fj-Q/=]AFM@Dk8jD(qao&K>]A%GY@D+=nCn]Aqlt
+8fh?WUh$+W6e?deuT!!#SZ:.26O@"J~
+]]></qrcodeImage>
+<activePlugins directory="DEFAULT_DIRECTORY" theme="DEFAULT_THEME"/>
+<bannerList show="false" slideTime="5"/>
+</fmobileconfig>

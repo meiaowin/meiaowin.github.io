@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.wei.plugin.h5reportnew</id>
+    <name><![CDATA[9.0HTML5移动端展现]]></name>
+    <active>yes</active>
+    <version>9.5.25</version>
+    <env-version>8.0~9.0</env-version>
+    <vendor>FineMobile</vendor>
+    <jartime>2018-04-27</jartime>
+    <description><![CDATA[除了原生App展示报表外，提供移动浏览器预览报表,表单以及决策系统的插件，可用于微信,钉钉以及App中集成]]></description>
+    <change-notes>
+        <![CDATA[
+		[2019-06-18]<br/>
+		9.5.25:修复bug<br/>
+        [2018-10-19]<br/>
+		5.0.10:修复bug<br/>
+		[2018-09-07]<br/>
+		5.0.9:修复bug<br/>
+		[2018-08-13]<br/>
+		5.0.8:修复window对象在自定义js失效的bug<br/>
+		5.0.8:修复H5部分联动失效的bug<br/>
+		[2018-07-31]<br/>
+		5.0.6:修复部分单元格数字被识别成电话显示底部下划线的bug<br/>
+		5.0.6:修复横向自适应单元格图片可以滚动的bug<br/>
+		5.0.6:修复H5传参异常的bug<br/>
+		[2018-07-03]<br/>
+		5.0.4:修复部分单元格显示不全的的bug<br/>
+		5.0.4:修复缩放后查询缩放失效的bug<br/>
+		5.0.4:修复安卓键盘收起后页面大小异常的bug<br/>
+		5.0.4:修复部分tab页加载不出的bug<br/>
+		[2018-06-01]<br/>
+		5.0.3:MOBILE-9360 修复图表有时候字体会很小的bug<br/>
+		5.0.3:MOBILE-9297 修复图表标题联动需要点击2次才触发的bug<br/>
+		[2018-05-22]<br/>
+		5.0.2:MOBILE-9216 修复定时结果报表不分页的bug<br/>
+		5.0.2:MOBILE-9221 修复网络报表中文路径乱码的bug<br/>
+		5.0.2:MOBILE-9248 修复条件属性隐藏时显示异常的bug<br/>
+		[2018-04-27]<br/>
+		5.0.1:修复未购买移动决策平台就无法使用H5的bug<br/>
+		[2018-04-20]<br/>
+		5.0.0:HTML5报表功能、体验及交互与APP9.0进行统一<br/>
+		5.0.0:HTML5登录页及目录页与APP9.0进行统一<br/>
+		5.0.0:HTML5控件显示及交互与APP9.0进行统一<br/>
+		5.0.0:新增支持目录首页功能<br/>
+		5.0.0:新增支持表单组件显示与隐藏功能<br/>
+		5.0.0:新增支持文件上传功能（仅微信和钉钉集成下支持）<br/>
+		5.0.0:新增支持扫码控件（仅微信和钉钉集成下支持）<br/>
+		5.0.0:下拉控件支持显示水印<br/>
+		5.0.0:下拉控件支持自定义值<br/>
+		5.0.0:按钮支持自定义样式<br/>
+		5.0.0:单选及复选按钮组支持横排显示<br/>
+		5.0.0:工具栏固定显示不自动隐藏<br/>
+		5.0.0:报表超时优化，提示刷新<br/>
+		5.0.0:删除按钮缩放，改为双指缩放<br/>
+		5.0.0:表单中双击组件可以全屏放大<br/>
+		5.0.0:模板中包含的老图表支持自动转新图表显示（地图除外）<br/>
+		[2018-03-31]<br/>
+		4.0.9:修复下拉选项不对齐的bug<br/>
+		4.0.9:修复总是使用缓存的bug<br/>
+		[2018-03-15]<br/>
+		4.0.8:修复不显示自定义按钮的bug<br/>
+		4.0.8:修复图表设置条件属性隐藏后报表报错的bug<br/>
+		[2018-03-01]<br/>
+		4.0.7:修复冻结行列边框有缝隙的bug<br/>
+		4.0.7:修复BI4.1版本分享给我的显示空白的bug<br/>
+		[2018-02-02]<br/>
+		4.0.6:修复联动的一些bug<br/>
+		[2018-01-19]<br/>
+		4.0.5:修复日期控件的一些bug<br/>
+		4.0.5:修复安卓手机键盘弹出后一些适应的bug<br/>
+		[2018-01-08]<br/>
+		4.0.4:修复safari上部分日期格式不生效的bug<br/>
+        ]]>
+    </change-notes>
+    <extra-core>
+        <WebService class="com.fr.wei.plugin.h5reportnew.server.web.service.Html5MobileCprService"/>
+        <WebService class="com.fr.wei.plugin.h5reportnew.server.web.service.Html5FSService"/>
+        <WebService class="com.fr.wei.plugin.h5reportnew.server.web.service.Html5MobileEntryService"/>
+        <WebService class="com.fr.wei.plugin.h5reportnew.server.web.service.Html5FileVersionControlService"/>
+        <WebService class="com.fr.wei.plugin.h5reportnew.server.web.service.Html5ManagementService" />
+        <WebService class="com.fr.wei.plugin.h5reportnew.server.web.service.Html5I18nService" />
+        <WebService class="com.fr.wei.plugin.h5reportnew.server.web.service.Html5MonitorPostMessageService" />
+        <WebService class="com.fr.wei.plugin.h5reportnew.server.web.service.Html5TemplateService" />
+    </extra-core>
+    <extra-report>
+        <ActorProvider class="com.fr.wei.plugin.h5reportnew.server.report.Html5PageActorProvider"/>
+    </extra-report>
+    <extra-form>
+        <FormActor class="com.fr.wei.plugin.h5reportnew.server.form.NoScaleFormActor"/>
+        <FormActor class="com.fr.wei.plugin.h5reportnew.server.form.Html5FormActor"/>
+        <MobileJSONProcessor class="com.fr.wei.plugin.h5reportnew.server.provider.Html5MobileJSONProcessor"/>
+    </extra-form>
+    <extra-platform>
+        <PlateProvider class="com.fr.wei.plugin.h5reportnew.server.fs.Html5ManagementPlateProvider"/>
+    </extra-platform>
+</plugin>

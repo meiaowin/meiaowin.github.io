@@ -1,0 +1,30 @@
+.fr-trigger-btn-up{  
+    background-color: black;  
+}  
+
+.fr-trigger-btn-over{  
+    background-color: black;  
+}   
+
+.fr-trigger-btn-down{  
+    background-color: #303030;  
+}  
+
+.fr-combo-list-item{  
+    color: white;  
+    background-color: black;  
+    font-size: 14px;  
+}  
+
+.fr-combo-list{  
+    border:none ;  
+}  
+
+.fr-combo-selected{  
+    background-color: #292929;  
+    border-color: red;  
+} 
+ 
+.fr-combo-list-item-noselect{  
+    color: red !important;  
+}

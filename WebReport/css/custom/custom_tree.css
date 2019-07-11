@@ -1,0 +1,14 @@
+.fr-tree-node-leaf .fr-tree-node-icon{
+	background:url("http://localhost:8075/WebReport/css/custom/1.png");
+	background-size:100% 100%;
+}
+
+.fr-tree-node-expanded .fr-tree-node-icon{
+	background:url("http://localhost:8075/WebReport/css/custom/2.png");
+	background-size:100% 100%;
+}
+
+.fr-tree-node-collapsed .fr-tree-node-icon{
+	background:url("http://localhost:8075/WebReport/css/custom/2.png");
+	background-size:100% 100%;
+}

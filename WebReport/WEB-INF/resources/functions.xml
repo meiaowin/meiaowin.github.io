@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FunctionManager xmlVersion="20170720" releaseVersion="9.0.0">
+<FunctionDefList>
+<FunctionDef name="ubm">
+<Class className="com.fr.function.Ubm"/>
+<Description>
+<![CDATA[数据库中保存的是如下形式的编码:%u5357%u4EAC-%u57CE%u5317 希望最后展示出来的是对应的中文“南京-城北”]]></Description>
+</FunctionDef>
+</FunctionDefList>
+</FunctionManager>
